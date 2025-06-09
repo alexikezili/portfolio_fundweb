@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto Portfólio do Alex, desenvolvedor web fullstack.">
+    <meta name="author" content="Alex Ikezili">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+    <title>Portfolio Alex</title>
+</head>
+<body>
+    <!--Cabeçalho da página-->
+    <header>
+        <div id="header_content">
+            <!-- Título do cabeçalho -->
+            <div id="titulo">
+                <a href="#">Universo</a>
+            </div>
+
+            <!-- Menu -->
+            <div id="menu">
+                <!-- Barra de navegação -->
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#contact">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seçao principal da página -->
+    <main>
+        <!-- Seçao home -->
+        <section id="home">
+            <article id="home_texto">
+                <h4>Bem-vindo ao Novo Universo</h4>
+                <h1>Mundos diferentes para pessoas diferentes</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, assumenda itaque. Reprehenderit mollitia atque, officia impedit doloribus earum magni debitis sint dolorem, quis ut commodi beatae soluta porro quo quidem!</p>
+                <a href="https://github.com/alexikezili" target="_blank">Explorar</a>
+            </article>
+
+            <article id="home_imagem">
+                <img src="./assets/img/astronauta.svg" alt="Capacete do astronauta"/>
+            </article>
+        </section>
+
+        <!-- Seçao sobre -->
+        <section id="about">
+
+            <article id="about_imagem">
+                <img src="./assets/img/user_01.svg" alt="Foto do perfil"/>
+            </article>
+
+            <article id="about_texto">
+                <h1>Sobre mim</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi aut repudiandae sequi dolores explicabo, itaque praesentium molestiae hic. Necessitatibus molestias totam autem atque similique quod, quis nobis officia voluptatum non?</p>
+
+                <div id="about_github">
+                    <a href="https://github.com/alexikezili" target="_blank">Github</a>
+                    <p>200 seguidores</p>
+                    <p>20 repositórios</p>
+                </div>
+            </article>
+        </section>
+
+        <!-- Seçao contatos -->
+        <section id="contact">
+            <h4>Contate-me</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, adipisci eveniet perspiciatis rerum consequuntur natus amet soluta molestiae totam facilis incidunt, repudiandae quis corporis autem ab quasi, fugiat voluptatem quibusdam.</p>
+
+            <div id="icones_redes_sociais">
+                <a href="https://www.linkedin.com/in/alexikezili/" target="_blank">
+                    <img src="./assets/img/linkedin.svg" alt="Icone linkedin"/>
+                </a>
+
+                <a href="" target="_blank">
+                    <img src="./assets/img/github.svg" alt="Icone github"/>
+                </a>
+
+                <a href="" target="_blank">
+                    <img src="./assets/img/facebook.svg" alt="Icone facebook"/>
+                </a>
+            </div>
+
+            <form action="" method="post">
+                <label for="nome">Nome</label>
+                <input
+                    id="nome"
+                    name="nome"
+                    type="text"
+                    placeholder="Digite o seu nome"
+                >
+                <span id="txtNome"></span>
+
+                <label for="email">E-mail</label>
+                <input
+                    id="email"
+                    name="email"
+                    type="text"
+                    placeholder="Digite o seu e-mail"
+                >
+                <span id="txtEmail"></span>
+
+                <label for="assunto">Assunto</label>
+                <input
+                    id="assunto"
+                    name="assunto"
+                    type="text"
+                    placeholder="Digite o assunto"
+                >
+                <span id="txtAssunto"></span>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    placeholder="Digite a sua mensagem"
+                    >
+                </textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer>
+        Feito com carinho por Alex Ikezili - 2025
+    </footer>
+</body>
+</html>
