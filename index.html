@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
+    <!-- Servidores de Fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 
+    <!-- Fonte do Google - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Projeto Portfólio do Alex, desenvolvedor web fullstack.">
     <meta name="author" content="Alex Ikezili">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css"/>
+
     <title>Portfolio Alex</title>
 </head>
 <body>
     <!--Cabeçalho da página-->
-    <header>
-        <div id="header_content">
+    <header class="flex menu_container">
+        <div id="header_content" class="menu_content">
             <!-- Título do cabeçalho -->
             <div id="titulo">
                 <a href="#">Universo</a>
             </div>
 
             <!-- Menu -->
-            <div id="menu">
+            <div id="menu" class="flex">
                 <!-- Barra de navegação -->
                 <nav>
-                    <ul>
+                    <ul class="flex menu_list">
                         <li><a href="#">Home</a></li>
                         <li><a href="#about">Sobre</a></li>
                         <li><a href="#contact">Contatos</a></li>
@@ -35,32 +47,32 @@
     <!-- Seçao principal da página -->
     <main>
         <!-- Seçao home -->
-        <section id="home">
-            <article id="home_texto">
+        <section id="home" class="flex home_container">
+            <article id="home_texto" class="flex home_content">
                 <h4>Bem-vindo ao Novo Universo</h4>
                 <h1>Mundos diferentes para pessoas diferentes</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, assumenda itaque. Reprehenderit mollitia atque, officia impedit doloribus earum magni debitis sint dolorem, quis ut commodi beatae soluta porro quo quidem!</p>
-                <a href="https://github.com/alexikezili" target="_blank">Explorar</a>
+                <a href="https://github.com/alexikezili" target="_blank" class="botao">Explorar</a>
             </article>
 
-            <article id="home_imagem">
+            <article id="home_imagem" class="flex home_content">
                 <img src="./assets/img/astronauta.svg" alt="Capacete do astronauta"/>
             </article>
         </section>
 
         <!-- Seçao sobre -->
-        <section id="about">
+        <section id="about" class="flex about_container">
 
-            <article id="about_imagem">
+            <article id="about_imagem" class="flex about_content">
                 <img src="./assets/img/user_01.svg" alt="Foto do perfil"/>
             </article>
 
-            <article id="about_texto">
+            <article id="about_texto" class="flex about_content">
                 <h1>Sobre mim</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi aut repudiandae sequi dolores explicabo, itaque praesentium molestiae hic. Necessitatibus molestias totam autem atque similique quod, quis nobis officia voluptatum non?</p>
 
-                <div id="about_github">
-                    <a href="https://github.com/alexikezili" target="_blank">Github</a>
+                <div id="about_github" class="flex about_github">
+                    <a href="https://github.com/alexikezili" target="_blank" class="botao">Github</a>
                     <p>200 seguidores</p>
                     <p>20 repositórios</p>
                 </div>
@@ -122,14 +134,14 @@
                     >
                 </textarea>
 
-                <button type="submit">Enviar</button>
+                <button type="submit" class="botao">Enviar</button>
 
             </form>
         </section>
     </main>
 
     <!-- Rodapé da página -->
-    <footer>
+    <footer class="flex footer_container">
         Feito com carinho por Alex Ikezili - 2025
     </footer>
 </body>
