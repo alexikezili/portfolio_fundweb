@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
+     <!-- Servidores de Fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonte do Google - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Projeto Portfólio do Alex, desenvolvedor web fullstack.">
     <meta name="author" content="Alex Ikezili">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    
     <title>E-mail enviado</title>
 </head>
 <body>
     <!--Cabeçalho da página-->
-    <header>
-        <div id="header_content">
+    <header class="flex menu_container">
+        <div id="header_content" class="menu_content">
             <!-- Título do cabeçalho -->
-            <div id="titulo">
-                <a href="#">Universo</a>
+            <div id="menu_content_sucess">
+                <a href="index.html">Universo</a>
             </div>
         </div>
     </header>
@@ -23,18 +34,18 @@
     <!-- Seçao principal da página -->
     <main>
         <!-- Seçao home -->
-        <section id="success">
-            <article id="success_texto">
+        <section id="home" class="flex home_container_sucess">
+            <article id="home_sucess" class="flex">
                 <h1>E-mail enviado com sucesso!</h1>
                 <p>Obrigado por entrar em contato, logo mais retornarei a sua mensagem</p>
-                <a href="index.html" target="_blank">Voltar</a>
+                <a class="botao" href="index.html">Voltar</a>
             </article>
         </section>
     </main>
 
     <!-- Rodapé da página -->
     <footer>
-        Feito com carinho por Alex Ikezili - 2025
+        Feito com 🧡 por Alex Ikezili - 2025
     </footer>
 </body>
 </html>
