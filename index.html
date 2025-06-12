@@ -62,21 +62,6 @@
 
         <!-- Seçao sobre -->
         <section id="about" class="flex about_container">
-
-            <article id="about_imagem" class="flex about_content">
-                <img src="./assets/img/user_01.svg" alt="Foto do perfil"/>
-            </article>
-
-            <article id="about_texto" class="flex about_content">
-                <h1>Sobre mim</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi aut repudiandae sequi dolores explicabo, itaque praesentium molestiae hic. Necessitatibus molestias totam autem atque similique quod, quis nobis officia voluptatum non?</p>
-
-                <div id="about_github" class="flex about_github">
-                    <a href="https://github.com/alexikezili" target="_blank" class="botao">Github</a>
-                    <p>200 seguidores</p>
-                    <p>20 repositórios</p>
-                </div>
-            </article>
         </section>
 
         <!-- Seçao contatos -->
@@ -101,7 +86,9 @@
                 </div>
             </article>
 
-            <form action="" method="post">
+             <form action="https://formsubmit.co/6d61b51bc87adbd9b133141ae773995c" method="POST" id="formulario">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucess.html">
+                <input type="hidden" name="_captcha" value="false">
                 <label for="nome">Nome</label>
                 <input
                     id="nome"
@@ -147,5 +134,8 @@
     <footer class="flex footer_container">
         Feito com carinho por Alex Ikezili - 2025
     </footer>
+
+     <!-- Script JavaScript -->Add commentMore actions
+    <script src="./assets/js/script.js"></script> 
 </body>
 </html>

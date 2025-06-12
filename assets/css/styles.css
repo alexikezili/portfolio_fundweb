@@ -167,48 +167,39 @@ button, a {
 /* ABOUT */
 
 .about_container {
-    height: calc(100vh - 6.25rem);
     max-width: 1120px;
-    margin: 1rem auto;
+    margin: -1.25rem auto;
     padding: 0 1rem;
+    height: 100vh;
 }
 
-.about_container p, h1, h4 {
+.about_container img {
+    width: 30%;
+    margin: 1rem;
+    border: 5px solid var(--purple-500);
+    border-radius: 50%;
+}
+
+.about_container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 3rem;
     text-align: center;
 }
 
-.about_container h1 {
-    font-size: 2.25rem;
-    font-weight: 700;
-    line-height: 3rem;
-}
-
-.about_container h4 {
-    font-weight: 700;
-}
- 
 .about_container p {
     margin: 1rem 0;
-}
- 
-.about_container .botao {
-    width: 40%;
-}
- 
-.about_content {
-    flex-direction: column;
-    width: 50vw;
+    text-align: center;
 }
 
 .about_github {
     justify-content: space-evenly;
 }
- 
-.about_content img {
-    border: var(--purple-800) solid;
-    border-radius: 100%;
-    width: 75%;
+
+#about_texto {
+    margin-left: 2rem;
 }
+
 
 /* Contato */
 
